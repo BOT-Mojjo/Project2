@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgb(255, 151, 247);
+  background: linear-gradient(
+    163deg,
+    rgba(255, 151, 247, 1) 0%,
+    rgba(233, 71, 199, 1) 49%,
+    rgba(106, 4, 136, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  text-align: center;
+  height: 100%;
+}
+div {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: auto;
+  width: auto;
+  position: relative;
+  top: 50%;
+  transform: -50%;
+}
